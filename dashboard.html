@@ -1,0 +1,124 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Result Processing System | Dashboard</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" >
+        <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" >
+        <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen" >
+        <link rel="stylesheet" href="css/lobipanel/lobipanel.min.css" media="screen" >
+        <link rel="stylesheet" href="css/toastr/toastr.min.css" media="screen" >
+        <link rel="stylesheet" href="css/icheck/skins/line/blue.css" >
+        <link rel="stylesheet" href="css/icheck/skins/line/red.css" >
+        <link rel="stylesheet" href="css/icheck/skins/line/green.css" >
+        <link rel="stylesheet" href="css/main.css" media="screen" >
+        <script src="js/modernizr/modernizr.min.js"></script>
+        <link href="styling.css" rel="stylesheet" type="text/css">
+        <style> 
+        body {
+            background-color: grey;
+        }
+        #hell{
+            color: white;
+        }
+        </style>
+    </head>
+    <div class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">RESULT PROCESSING SYSTEM</a></li>
+                    <li><a href="logout.html"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+    
+    <body class="top-navbar-fixed">
+       <div class="vt">
+            <div class="inner-vt">
+                <div class="inner-content">
+                    <h1 style="color: whitesmoke; font-size: 15px;"> MAIN CATEGORY</h1>
+                    <br>
+                    <p><a href="dashboard.html"><span class="glyphicon glyphicon-dashboard"></span> &nbsp; Dashboard</a></h2>
+                    <h1 style="color: whitesmoke; font-size: 15px;">APPEARENCE</h1>
+                    <br>
+                    <p><a href="student-classes.html"><span class="glyphicon glyphicon-book"></span> &nbsp; Student Classes &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  ></a></p>
+                    <p><a href="subjects.html"><span class="glyphicon glyphicon-book"></span> &nbsp; Subjects &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ></a></p>
+                    <p><a href="students.html"><span class="glyphicon glyphicon-user"></span> &nbsp; Students  &nbsp;&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ></a></p>
+                    <p><a href=result.html><span class="glyphicon glyphicon-info-sign"></span> &nbsp; Result &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  ></a></p>
+                    <p><a href="admin-change-password.html"><span class="glyphicon glyphicon-list"></span> &nbsp; Admin Change Password &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;></a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-wrapper"> 
+            <div class="content-wrapper">
+                <div class="content-container">
+                    <div class="main-page">
+                        <div class="container-fluid">
+                            <div class="opacity-4" class="row page-title-div">
+                                <div class="col-sm-6">
+                                    <h1 id="hell" class="title">Dashboard</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <section class="section">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <a class="dashboard-stat bg-primary" href="manage-students.html">
+                                            <span class="number counter"></span>
+                                            <span class="name">Regd Users</span>
+                                            <span class="bg-icon"><i class="fa fa-users"></i></span>
+                                        </a>   
+                                    </div>
+                                    
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <a class="dashboard-stat bg-danger" href="manage-subjects.html">
+
+                                            <span class="number counter"></span>
+                                            <span class="name">Subjects Listed</span>
+                                            <span class="bg-icon"><i class="fa fa-ticket"></i></span>
+                                        </a>  
+                                    </div>
+                                </div>
+                                
+                                <br><br><br><br><br>
+                                    
+                                <div class="row">   
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <a class="dashboard-stat bg-warning" href="manage-classes.html">
+                                            <span class="number counter"></span>
+                                            <span class="name">Total classes listed</span>
+                                            <span class="bg-icon"><i class="fa fa-bank"></i></span>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <a class="dashboard-stat bg-success" href="manage-results.html">
+                                            <span class="number counter"></span>
+                                            <span class="name">Results Declared</span>
+                                            <span class="bg-icon"><i class="fa fa-file-text"></i></span>
+                                        </a> 
+                                    </div>
+                                </div>
+                                
+                            </div>    
+                        </section>   
+                    </div>                    
+                </div>     
+            </div>
+        </div>  
+    </body>
+</html>

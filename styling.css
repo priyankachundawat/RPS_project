@@ -1,0 +1,23 @@
+.vt{
+    margin:auto;
+    width: 30%;
+    float: left;
+    height: 120%;
+    background-color: #000;
+    padding: 25px;
+}
+
+.inner-vt{
+    padding: 30px 10px 10px 10px;
+}
+
+.inner-content{
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    float: left;
+}
+
+.main-wrapper{
+    overflow: auto;
+}
